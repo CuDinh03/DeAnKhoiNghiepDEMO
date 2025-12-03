@@ -176,7 +176,9 @@ Sau đó vẽ khung quanh chai và cốc trong ảnh.
 
 ---
 
-# VII. TRAIN MODEL YOLOV8
+# VII. TRAIN MODEL YOLOV8 
+
+Lưu ý vào file train.py thay đổi CPU thành GPU nếu máy có GPU 
 
 Chạy:
 
