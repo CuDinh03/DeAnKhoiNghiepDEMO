@@ -4,10 +4,14 @@ model = YOLO("yolov8n.pt")
 
 model.train(
     data="bottle-dataset/data.yaml",
-    epochs=100,
+    epochs=200,
     imgsz=640,
     batch=2,
-    device="cpu",  #thay bằng GPU nếu máy có GPU
+    device="0",  
+       workers=0,
     augment=True,
     patience=50
 )
+
+if __name__ == "__main__":
+    main()
