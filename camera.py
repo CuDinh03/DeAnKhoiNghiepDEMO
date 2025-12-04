@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # Load model đã train
-model = YOLO("runs/detect/train/weights/best.pt")
+model = YOLO("runs/detect/train4/weights/best.pt")
 
 # Class mapping theo data.yaml
 class_names = {0: "cup", 1: "bottle"}
