@@ -7,7 +7,7 @@ model.train(
     epochs=100,
     imgsz=640,
     batch=2,
-    device="cpu",
+    device="cpu",  #thay bằng GPU nếu máy có GPU
     augment=True,
     patience=50
 )
